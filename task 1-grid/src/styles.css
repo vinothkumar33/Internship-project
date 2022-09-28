@@ -1,0 +1,154 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lavender;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.left-container{
+  padding-left: 2rem;
+
+
+  
+}
+.left-head{
+  text-align: left;
+  float: left;
+  padding-left: 3rem;
+  color: brown;
+  font-size: 24px;
+}
+.left-subhead{
+  text-align: center;
+}
+.left-line{
+  clear: both;
+  width:100%;
+  text-align:left;
+  margin-left:0
+}
+.nav-list{
+  text-align: left;
+  list-style-type: none;
+  padding-right: 0.5rem;
+ 
+}
+.btn{
+  font-size: 1rem;
+  width: 100%;
+  background-color: lavender;
+  border: none;
+  color: black;
+  padding: 3px 4px;
+  padding-bottom: 0.5rem;
+  text-align: justify;
+  text-decoration: none;
+  display: block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: brown;
+  color:white;
+}
+.icon{
+  position: absolute;
+  left: 18rem;
+
+  
+}
+
+.middle-container{
+  text-align: center; 
+  float: center; 
+  display: inline;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 1.1rem;
+}
+.a-link{
+  color: black;
+  text-decoration: none;
+}
+.a-link:hover{
+  color: brown;
+}
+.middle-p{
+  text-align: justify;
+}
+.middle-line{
+  clear: both;
+  width:100%;
+  text-align:right;
+  display: inline;
+  float: right;
+  margin-right: 0;
+}
+.middle-head{
+  text-align: left;
+  color: brown;
+}
+.middle-list{
+  list-style-type: none;
+  text-align: left;
+  text-align: justify;
+}
+.list-li{
+  padding-bottom: 0.5rem;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: clip;
+ 
+}
+.color{
+  color: rgb(197, 50, 50);
+}
+span{
+  color: grey;
+  padding-left: 1rem;
+}
+.list-p{
+  padding-bottom: 0.5rem;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.right-container{
+  text-align: right; 
+  float: right; 
+  display: inline;
+  padding-right: 5rem;
+}
+.right-head{
+  text-align: right; 
+  float: right; 
+  display: inline;
+  padding-right: 5rem;
+  color: brown;
+ }
+ .right-line{
+  clear: both;
+  width:100%;
+  text-align:right;
+  display: inline;
+  float: right;
+  margin-right: 0;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ 
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
