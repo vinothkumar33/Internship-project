@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lavender;
+}
+.container {
+  width: 250px;
+  height: 300px;
+  border: 2px solid rgb(227, 8, 8);
+  background-color: rgb(244, 188, 188);
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+
+
+.container img {
+  width: 100px;
+  height: 100px;
+  
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 30px;
+  margin-right: 15px;
+  color: green;
+}
+
+.container p{
+  font-size: 20px;
+  color: rgb(15, 23, 15);
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
